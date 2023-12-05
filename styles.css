@@ -82,19 +82,19 @@ body {
 #logo-query-button {
     align-items: center;
     font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     cursor: default;
-    color: #5A5A5A;
+    color: #303030;
     background-color: #add8e6;
     border-radius: 5px;
-    padding: 15px 30px; 
+    padding: 20px 40px; 
     border: none;
     width: auto;
     height: auto;
     margin-top: 10px;
     pointer-events: none;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    box-shadow: none;
 }
 
 
