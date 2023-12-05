@@ -15,8 +15,6 @@ function addEnterKeyListener() {
 
 document.getElementById('search-button').addEventListener('click', performSearch);
 
-// Existing functions: addEventListenersToLogos, performSearch, selectLogo, etc.
-
 
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('search-input').focus();
