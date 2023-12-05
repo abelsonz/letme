@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('search-input').focus();
+});
+
 document.getElementById('amazon-logo').addEventListener('click', function() {
     selectLogo('amazon-logo');
 });
