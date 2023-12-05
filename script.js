@@ -6,7 +6,6 @@ document.getElementById('youtube-logo').addEventListener('click', function() {
     selectLogo('youtube-logo');
 });
 
-// Add event listeners for Yelp, eBay, and Etsy logos
 document.getElementById('yelp-logo').addEventListener('click', function() {
     selectLogo('yelp-logo');
 });
