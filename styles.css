@@ -79,21 +79,11 @@ body {
     box-shadow: 0 1px 1px rgba(0,0,0,0.3) !important;
 }
 
-    #logo-query-button {
-    align-items: center;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    text-align: center;
-    cursor: pointer;
-    color: #808080;
-    background-color: #add8e6;
-    border-radius: 5px;
-    padding: 10px 15px;
-    border: none;
-    width: auto;
-    height: 40px;
-    margin-top: 10px;
+#logo-query-button {
+    background-color: blue;
+    color: white;
 }
+
 
 #logo-query-button:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,0.2);
