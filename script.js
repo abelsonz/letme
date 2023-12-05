@@ -154,8 +154,10 @@ function performSearch() {
                 break;
             case 'theverge-logo':
                 baseUrl = 'https://www.theverge.com/search?q=';
-                break;
+                 break;
         }
         window.location.href = baseUrl + searchQuery;
+    } else {
+        alert('Please select a search platform.');
     }
 }
