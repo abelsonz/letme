@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let Me ... That...</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="container">
+
+        <div id="logo-container">
+            <img src="amazon.png" id="amazon-logo" class="logo">
+            <img src="youtube.png" id="youtube-logo" class="logo">
+            <img src="yelp.png" id="yelp-logo" class="logo">
+            <img src="ebay.png" id="ebay-logo" class="logo">
+            <img src="etsy.png" id="etsy-logo" class="logo">
+            <img src="tripadvisor.png" id="tripadvisor-logo" class="logo">
+            <img src="indeed.png" id="indeed-logo" class="logo">
+            <img src="webmd.png" id="webmd-logo" class="logo">
+            <img src="reddit.png" id="reddit-logo" class="logo">
+            <img src="googlemaps.png" id="googlemaps-logo" class="logo">
+            <img src="wikipedia.png" id="wikipedia-logo" class="logo">
+            <img src="pinterest.png" id="pinterest-logo" class="logo">
+            <img src="imdb.png" id="imdb-logo" class="logo">
+            <img src="github.png" id="github-logo" class="logo">
+            <img src="spotify.png" id="spotify-logo" class="logo">
+            <img src="allrecipes.png" id="allrecipes-logo" class="logo">
+            <img src="goodreads.png" id="goodreads-logo" class="logo">
+            <img src="craigslist.png" id="craigslist-logo" class="logo">
+            <img src="carsandbids.png" id="carsandbids-logo" class="logo">
+            <img src="theverge.png" id="theverge-logo" class="logo">
+
+<br>
+<br>
+        </div>
+        <div id="title">Let Me ... That For You...</div>
+        <br>
+        <br>
+        <br>
+        <input type="text" id="search-input" placeholder="">
+        <br>
+        <br>
+        <button id="search-button">Search</button>
+        
+
+    </div>
+
+    <script src="script.js"></script>
+    <footer id="footer">
+        <div class="footer-content">
+            <!-- Add footer content here -->
+            <p>Not associated with Amazon or YouTube or Yelp or eBay or Etsy or Tripadvisor or Indeed or WebDM or Reddit or Google Maps</p>
+                
+            <p>or Wikipedia or Pinterest or IMDb or GitHub or Spotify or AllRecipes or GoodReads or Craigslist or Cars&Bids or The Verge in any way.</p>
+            </p>
+            <p>© 2023 LetMe...That...</p>
+            <!-- Add other elements as needed -->
+        </div>
+    </footer>
+    
+</body>
+</html>
