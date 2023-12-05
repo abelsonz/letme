@@ -6,15 +6,15 @@ body {
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    font-size: 16px; /* Reduced font size */
+    font-size: 16px;
 }
 
 #title {
-    font-size: 24px; /* Reduced font size */
+    font-size: 24px;
     font-weight: bold;
     color: rgb(62, 62, 62);
-    margin-top: 10px; /* Reduced margin top */
-    margin-bottom: 10px; /* Reduced margin bottom */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #container {
@@ -22,9 +22,9 @@ body {
 }
 
 .logo {
-    max-width: 200px; /* Reduced logo size */
-    max-height: 200px; /* Reduced logo size */
-    margin: 5px; /* Reduced margin */
+    max-width: 200px;
+    max-height: 200px;
+    margin: 5px;
     cursor: pointer;
     opacity: 0.6;
 }
@@ -34,11 +34,11 @@ body {
 }
 
 #search-input {
-    width: 70%; /* Increased input width */
-    height: 40px; /* Reduced input height */
+    width: 70%;
+    height: 40px;
     position: relative;
-    padding: 8px; /* Reduced padding */
-    font-size: 16px; /* Reduced font size */
+    padding: 8px;
+    font-size: 16px;
     color: rgb(26, 26, 26);
     font-family: Arial, sans-serif;
     border: 1px solid #d3d3d3;
@@ -51,30 +51,30 @@ body {
 #search-button {
     align-items: flex-start;
     font-family: Arial, sans-serif;
-    font-size: 20px; /* Reduced font size */
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
     color: #5F6368 !important;
     background-color: #f4f4f4 !important;
     box-sizing: border-box;
     border-radius: 5px;
-    padding: 10px 15px; /* Reduced padding */
+    padding: 10px 15px;
     border: none !important;
     width: 100%;
     position: relative;
-    height: 50px; /* Reduced button height */
-    max-width: 140px; /* Reduced max-width */
-    min-width: 130px; /* Reduced min-width */
+    height: 50px;
+    max-width: 140px;
+    min-width: 130px;
 }
 
 #footer {
     text-align: center;
-    padding: 10px 0; /* Reduced padding */
+    padding: 10px 0;
     font-family: Arial, sans-serif;
-    border-top: 1px solid #e4e4e4; /* Light border at the top */
+    border-top: 1px solid #e4e4e4;
     position: absolute;
     bottom: 0;
     width: 100%;
-    font-size: 14px; /* Reduced font size */
+    font-size: 14px;
     color: #3c3c3c;
 }
