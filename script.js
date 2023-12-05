@@ -1,5 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('search-input').focus();
+    addEventListenersToLogos();
+    addEnterKeyListener();
+});
+
+function addEnterKeyListener() {
+    const searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+            performSearch();
+        }
+    });
+}
+
+document.getElementById('search-button').addEventListener('click', performSearch);
+
+// Existing functions: addEventListenersToLogos, performSearch, selectLogo, etc.
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('search-input').focus();
 });
 
 
