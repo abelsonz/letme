@@ -1,43 +1,32 @@
-html, body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-directions: column;
-}
-
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
-
-#main-content{
-    flex: 1;
+    margin: 0;
+    font-size: 16px; /* Reduced font size */
 }
 
 #title {
-    font-size: 24px;
+    font-size: 24px; /* Reduced font size */
     font-weight: bold;
     color: rgb(62, 62, 62);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px; /* Reduced margin top */
+    margin-bottom: 10px; /* Reduced margin bottom */
 }
 
 #container {
     text-align: center;
-    flex-grow: 1;
 }
 
 .logo {
-    max-width: 200px;
-    max-height: 200px;
-    margin: 5px;
+    max-width: 200px; /* Reduced logo size */
+    max-height: 200px; /* Reduced logo size */
+    margin: 5px; /* Reduced margin */
     cursor: pointer;
     opacity: 0.6;
-}
-
-.logo:hover {
-    box-shadow: 3px 3px 6px rgba(0,0,0,0.16);
 }
 
 .logo.selected {
@@ -45,11 +34,11 @@ body {
 }
 
 #search-input {
-    width: 70%;
-    height: 40px;
+    width: 70%; /* Increased input width */
+    height: 40px; /* Reduced input height */
     position: relative;
-    padding: 8px;
-    font-size: 16px;
+    padding: 8px; /* Reduced padding */
+    font-size: 16px; /* Reduced font size */
     color: rgb(26, 26, 26);
     font-family: Arial, sans-serif;
     border: 1px solid #d3d3d3;
@@ -70,20 +59,20 @@ body {
 #search-button {
     align-items: flex-start;
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 20px; /* Reduced font size */
     text-align: center;
     cursor: pointer;
     color: #5F6368 !important;
     background-color: #f4f4f4 !important;
     box-sizing: border-box;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 10px 15px; /* Reduced padding */
     border: none !important;
     width: 100%;
     position: relative;
-    height: 50px;
-    max-width: 140px;
-    min-width: 130px;
+    height: 50px; /* Reduced button height */
+    max-width: 140px; /* Reduced max-width */
+    min-width: 130px; /* Reduced min-width */
 }
 
 #search-button:hover {
@@ -92,9 +81,12 @@ body {
 
 #footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 0; /* Reduced padding */
     font-family: Arial, sans-serif;
-    border-top: 1px solid #e4e4e4;
-    font-size: 14px;
+    border-top: 1px solid #e4e4e4; /* Light border at the top */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px; /* Reduced font size */
     color: #3c3c3c;
 }
